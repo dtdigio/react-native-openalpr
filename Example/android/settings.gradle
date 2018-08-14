@@ -6,4 +6,4 @@ project(':openalpr').projectDir = new File(rootProject.projectDir, '../node_modu
 include ':opencv'
 project(':opencv').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-openalpr/android/libraries/opencv')
 include ':react-native-openalpr'
-project (':react-native-openalpr').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-openalpr/android')
+project(':react-native-openalpr').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-openalpr/android')
